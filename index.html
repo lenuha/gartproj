@@ -1,47 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculeter</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Simple starter template</title>
+    <link rel="stylesheet" href="./style/styles.css">
 </head>
-
 <body>
-    <div class="container">
-        <div class="dispolay">
-            <input type="text" id="display" autocomplete="off" vlaue="">
+  <div class="bg">
+    <div class="wrapper">
+        <div class="main-block" style="display: flex;">
+            <header class="main-header">
+                <div class="social">
+                    <a href="#" class ="twit"></a><img src="./style/img/twit.svg" id="twit">
+                    <a href="#" class="face"></a><img src="./style/img/facebook.svg" id="face">
+                </div>
+                <div class="header-block" style="background-color: rgba(0, 0, 0, 0.594);">
+                    <div class="header-logo"><a href="#" class="logo-link">your<span>logo</span></a></div>
+                    <nav>
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="#" class="nav-item__link">Home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-item__link">item1</a></li>
+                            <li class="nav-item"><a href="#" class="nav-item__link">item2</a></li>
+                            <li class="nav-item"><a href="#" class="nav-item__link">item3</a></li>
+                            <li class="nav-item"><a href="#" class="nav-item__link">item4</a></li>
+                            <li class="nav-item"><a href="#" class="nav-item__link">item5</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header-support">            
+                        <a href="#" class="support">support</a>
+                        <a href="#" class="contact">contact</a>
+                    </div>
+               </div>
+               
+            </header>
+            <main>
+                <div class="main-content">
+                    <h1 class="main-content__title">Simple starter <br> <span>TEMPLATE</span></h1>
+                    <p class="main-content__descript">A clean simple desktop design with space to add & alter items instead of removing them. An easy to use starting point for beginners to make mockups or designs that look nice, quickly.</p>
+                    <button class="btn">LEARN MORE</button>
+                    <div class="block-image">
+                        <img src="./style/img/img1.jpg" alt="img" class="image">
+                        <img src="./style/img/img2.jpg" alt="img" class="image">
+                        <img src="./style/img/img3.jpg" alt="img" class="image">
+                        <img src="./style/img/img4.jpg" alt="img" class="image">
+                    </div>
+                </div>
+                <div class="news">
+                <h2 class ="news_list">NEWS</h2><img src="./style/img/triangle.svg" id="triangle">
+                </div>   
+            </main>  
         </div>
-        <div class="btn-box">
-            <!-- Fist row -->
-            <button class="btn ac">AC</button>
-            <button class="btn back">&larr;</button>
-            <button class="btn modulo">%</button>
-            <button class="btn devition">/</button>
-            <!-- Second Row -->
-            <button class="btn btn-7">7</button>
-            <button class="btn btn-8">8</button>
-            <button class="btn btn-9">9</button>
-            <button class="btn multiplication">*</button>
-            <!-- Row 3 -->
-            <button class="btn btn-4">4</button>
-            <button class="btn btn-5">5</button>
-            <button class="btn btn-6">6</button>
-            <button class="btn substract">-</button>
-            <!-- Row 4 -->
-            <button class="btn btn-1">1</button>
-            <button class="btn btn-2">2</button>
-            <button class="btn btn-3">3</button>
-            <button class="btn addition">+</button>
-            <!-- Row 5 -->
-            <button class="btn zero">0</button>
-            <button class="btn dot">.</button>
-            <button class="btn sum">=</button>
-        </div>
+        
     </div>
-    <script src="script.js"></script>
-</body>
 
+    
+  </div> 
+  <script src="script.js"></script>
+</body>
 </html>
